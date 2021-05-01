@@ -1,4 +1,4 @@
-const socket = io('/')
+const socket = io('zoom-clone-3.herokuapp.com')
 const videoGrid = document.getElementById('video-grid')
 const myPeer = new Peer(undefined, {
   host: '/',
